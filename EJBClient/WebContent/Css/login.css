@@ -1,0 +1,39 @@
+.footer_login .textP p{
+	color: blue;
+	text-align:center;
+	margin: 3px 0px;
+	font-weight: bold;
+}
+.footer_login {
+	background: url("../Resources/Images/bg_footer.png") no-repeat top center;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    width: 99%;
+    bottom: 0;
+}
+.loginScr {
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 1rem;
+    background-color: #ededed;
+}
+.loginScr .center {
+	left: 40%;
+    overflow: visible;
+    position: absolute;
+    top: 28%;
+    z-index: 11;
+    
+}
+
+.wwFormTable {
+	margin-top: 18px;
+    margin-left: 42px;
+    border-collapse: separate;
+    border-spacing: 8px;
+}
